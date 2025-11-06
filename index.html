@@ -3,28 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 
     <link rel="stylesheet" href="css/style.css">
+   
 </head>
+
 <body>
-<header>
-<div></div>
-<nav>
-    <a herf="">Home</a>
-    <a herf="">Our Profile</a>
-    <a herf="">Massage Us</a>
-    <a herf="">Portofolio</a>
-</nav>
-</header>
-    
+    <header class="main-header">
+        <!-- logo -->
+        <div class="logo"></div>
 
-<main>
+        <!-- navigation menu -->
+            <nav class="flex">
+                <a class="border rounded p-2" href="#home-page">Home</a>
+                <a class="border rounded p-2" href="#our-profile-page">Our Profile</a>
+                <a class="border rounded p-2" href="#portofolio-page">Portofolio</a>
+                <a class="border rounded p-2" href="#massage-us-page">Massage Us</a>
+            </nav>
+    </header>
 
-</main>
+    <hr />
 
-<footer></footer>
+<!-- main content -->
+    <main>
+        
+        <!-- Home Page -->
+        <section id="home-page" class="min-h-[500px] text-center">
+            <h2 class="text-xl font-bold mb-4" id="welcome-speech">Welcome to Our Website</h2>
+            <p class="mb-4">This is the home page of our awesome website.
+        </section>
 
-<script src="js/script.js"></script>
+
+        <!-- Our Profile Page -->
+        <section id="our-profile-page" class="min-h-[500px] text-center">
+            <h2 class="text-xl font-bold">About Dira Company</h2>
+            <p class="mb-4">We are a leading company in our industry, committed to providing top-notch services to our clients.</p>
+        </section>
+
+
+        <!-- Portofolio Page -->
+        <section id="portofolio-page" class="min-h-[500px] text-center">
+            <h2 class="text-xl font-bold mb-4">Our Portofolio</h2>
+            <p class="mb-4">Here are some of our recent projects:</p>
+        </section>
+
+
+        <!-- Massage Us Page -->
+        <section id="massage-us-page" class="min-h-[500px] text-center">
+            <header>
+                <h2 class="text-xl font-bold mb-4">Massage Us</h2>
+                <p class="mb-4">Feel free to reach out to us through the following channels:</p>
+            </header>
+           
+            <form>
+                <label for="name" class="block mb-2">Name:</label>
+                <input type="text" id="name" name="name" class="border rounded p-2 mb-4 w-full" required>
+
+                <label for="email" class="block mb-2">Email:</label>
+                <input type="email" id="email" name="email" class="border rounded p-2 mb-4 w-full" required>
+
+                <label for="message" class="block mb-2">Message:</label>
+                <textarea id="message" name="message" class="border rounded p-2 mb-4 w-full" rows="4" required></textarea>
+
+                <button type="submit" class="bg-blue-500 text-white rounded p-2">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <hr />
+<!-- footer -->
+    <footer>
+        <p class="text-center p-4">© 2024 Dira Company. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
