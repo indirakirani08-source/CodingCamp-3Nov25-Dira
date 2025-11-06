@@ -6,5 +6,3 @@ function welcomeMessage() {
     document.getElementById('welcome-speech').innerText = 'Hello, ' + name + '!';
     }
 }
-
-function validateForm() {
