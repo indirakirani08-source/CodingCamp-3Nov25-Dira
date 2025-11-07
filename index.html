@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Mie Gacoan</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
    
 </head>
 
@@ -19,62 +21,106 @@
             <nav class="flex">
                 <a class="border rounded p-2" href="#home-page">Home</a>
                 <a class="border rounded p-2" href="#our-profile-page">Our Profile</a>
-                <a class="border rounded p-2" href="#portofolio-page">Portofolio</a>
+                <a class="border rounded p-2" href="#our-menu-page">Our Menu</a>
                 <a class="border rounded p-2" href="#massage-us-page">Massage Us</a>
             </nav>
     </header>
 
-    <hr />
-
 <!-- main content -->
     <main>
-        
+    </br>
         <!-- Home Page -->
-        <section id="home-page" class="min-h-[500px] text-center">
-            <h2 class="text-xl font-bold mb-4" id="welcome-speech">Welcome to Our Website</h2>
-            <p class="mb-4">This is the home page of our awesome website.
+        <section class="hero-section">
+        <h2>Selamat Datang di Mie Gacoan!</h2>
+        <p>
+            Rasakan sensasi pedas yang menggoda dan cita rasa yang bikin nagih.
+            Mie-nya Gacoan, <span class="highlight">Rasanya Jagoan!</span>
+        </p>
         </section>
 
 
         <!-- Our Profile Page -->
-        <section id="our-profile-page" class="min-h-[500px] text-center">
-            <h2 class="text-xl font-bold">About Dira Company</h2>
-            <p class="mb-4">We are a leading company in our industry, committed to providing top-notch services to our clients.</p>
+        <section id="our-profile-page" class="min-h-[500px] text-center px-6 py-12 bg-black text-white">
+            <h2 class="text-3xl font-bold text-yellow-600 mb-4">Tentang Mie Gacoan</h2>
+            <p class="max-w-2xl mx-auto text-gray-300 mb-6">
+                <strong>Mie Gacoan</strong> adalah brand kuliner yang menghadirkan sensasi pedas dan nikmat dengan harga yang bersahabat. 
+                Berdiri sejak 2016, kami telah menjadi salah satu tempat favorit anak muda Indonesia untuk nongkrong sambil menikmati 
+                <em>mie level pedas</em> yang legendaris.
+            </p>
+            <p class="max-w-2xl mx-auto text-gray-300">
+                Dengan konsep <strong>“Rasanya Jagoan”</strong>, Mie Gacoan terus berinovasi menghadirkan varian menu unik, suasana seru, 
+                dan pelayanan cepat di lebih dari 100 cabang di seluruh Indonesia. Kami percaya, setiap suapan mie harus membawa kebahagiaan dan semangat!
+            </p>
         </section>
 
 
-        <!-- Portofolio Page -->
-        <section id="portofolio-page" class="min-h-[500px] text-center">
-            <h2 class="text-xl font-bold mb-4">Our Portofolio</h2>
-            <p class="mb-4">Here are some of our recent projects:</p>
+        <!-- Our Menu Page -->
+        <section id="our-menu-page" class="min-h-[500px] text-center px-6 py-12 bg-black text-white">
+        <h2 class="text-3xl font-bold text-yellow-600 mb-6">Menu Mie Gacoan</h2>
+        <p class="max-w-2xl mx-auto text-gray-300 mb-10">
+            Pilih jagoanmu! Dari mie pedas legendaris sampai minuman segar dan camilan yang bikin nagih
+        </p>
+
+        <div class="max-w-3xl mx-auto text-left">
+            <!-- Makanan -->
+            <h3 class="text-2xl font-semibold text-red-500 mb-3">Makanan</h3>
+            <ol class="list-decimal list-inside text-gray-200 mb-8 space-y-1">
+            <li>Mie Angel (tanpa pedas) — <span class="text-red-400 font-semibold">Rp 9.500</span></li>
+            <li>Mie Setan Level 1-4 — <span class="text-red-400 font-semibold">Rp 9.500</span></li>
+            <li>Mie Setan Level 6-8 — <span class="text-red-400 font-semibold">Rp 10.500</span></li>
+            <li>Mie Iblis Level 1-4 — <span class="text-red-400 font-semibold">Rp 9.500</span></li>
+            <li>Mie Iblis Level 6-8 — <span class="text-red-400 font-semibold">Rp 10.500</span></li>
+            </ol>
+
+            <!-- Snack -->
+            <h3 class="text-2xl font-semibold text-red-500 mb-3">Snack</h3>
+            <ol class="list-decimal list-inside text-gray-200 mb-8 space-y-1">
+            <li>Udang Rambutan — <span class="text-red-400 font-semibold">Rp 8.600</span></li>
+            <li>Udang Keju — <span.class="text-red-400 font-semibold>Rp 8.600</span></li>
+            <li>Lumpia Udang — <span class="text-red-400 font-semibold">Rp 8.600</span></li>
+            <li>Pangsit Goreng — <span class="text-red-400 font-semibold">Rp 9.500</span></li>
+            <li>Siomay Ayam — <span class="text-red-400 font-semibold">Rp 8.600</span></li>
+            </ol>
+
+            <!-- Minuman -->
+            <h3 class="text-2xl font-semibold text-red-500 mb-3">Minuman</h3>
+            <ol class="list-decimal list-inside text-gray-200 space-y-1">
+            <li>Es Genderuwo / Es Gobak Sodor — <span class="text-red-400 font-semibold">Rp 9.100</span></li>
+            <li>Es Teklek — <span class="text-red-400 font-semibold">Rp 5.900</span></li>
+            <li>Es Sluku Batok — <span class="text-red-400 font-semibold">Rp 5.900</span></li>
+            <li>Es Petak Umpet — <span class="text-red-400 font-semibold">Rp 9.100</span></li>
+            <li>Air Mineral — <span class="text-red-400 font-semibold">Rp 4.100</span></li>
+            </ol>
+        </div>
         </section>
 
 
         <!-- Massage Us Page -->
-        <section id="massage-us-page" class="min-h-[500px] text-center">
-            <header>
-                <h2 class="text-xl font-bold mb-4">Massage Us</h2>
-                <p class="mb-4">Feel free to reach out to us through the following channels:</p>
-            </header>
+        <section id="massage-us-page" class="min-h-[500px] text-center px-6 py-12 bg-gradient-to-b from-black to-red-900 text-white">
+        <header>
+            <h2 class="text-3xl font-bold text-yellow-400 mb-4">Message Us</h2>
+            <p class="mb-6 text-gray-300">Kirim pesan atau saranmu untuk Mie Gacoan, kami senang mendengarnya!</p>
+        </header>
            
             <form>
                 <label for="name" class="block mb-2">Name:</label>
-                <input type="text" id="name" name="name" class="border rounded p-2 mb-4 w-full" required>
+                <input type="text" id="name" name="name" class="border rounded p-2 mb-4 w-full bg-white text-black focus:border-yellow-500 focus:ring focus:ring-yellow-300" required>
 
                 <label for="email" class="block mb-2">Email:</label>
-                <input type="email" id="email" name="email" class="border rounded p-2 mb-4 w-full" required>
+                <input type="email" id="email" name="email" class="border rounded p-2 mb-4 w-full bg-white text-black focus:border-yellow-500 focus:ring focus:ring-yellow-300" required>
 
                 <label for="message" class="block mb-2">Message:</label>
-                <textarea id="message" name="message" class="border rounded p-2 mb-4 w-full" rows="4" required></textarea>
+                <textarea id="message" name="message" class="border rounded p-2 mb-4 w-full bg-white text-black focus:border-yellow-500 focus:ring focus:ring-yellow-300" rows="4" required></textarea>
 
                 <button type="submit" class="bg-blue-500 text-white rounded p-2">Send Message</button>
             </form>
         </section>
     </main>
-    <hr />
+    
 <!-- footer -->
     <footer>
-        <p class="text-center p-4">© 2024 Dira Company. All rights reserved.</p>
+        <p class="text-center p-4 bg-gray-800 text-white">
+            &copy; 2024 Mie Gacoan. All rights reserved.
     </footer>
 
     <script src="js/script.js"></script>

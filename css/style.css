@@ -1,13 +1,31 @@
 .logo {
-        height: 75px;
+    height: 75px;
     width: 75px;
     background-color: darkgrey;
     border-radius: 50%;
-    background-image: url(https://picsum.photos/200);
+    background-image: url(https://upload.wikimedia.org/wikipedia/id/thumb/5/5c/LogoMieGacoan.png/250px-LogoMieGacoan.png);
     background-size: cover;
+    position: sticky;
 }
 .main-header {
+    background-color: #D62828; /* 🔥 Navbar merah */
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
+.hero-section {
+  background: linear-gradient(to bottom, #8B0000, #000000);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
